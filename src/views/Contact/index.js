@@ -2,6 +2,8 @@ import React from 'react';
 import i18n from '../../i18n';
 import { Row, Col, Card, Icon } from 'antd';
 import banner1 from '../../assets/contact_banner.png';
+import soitronsiber from '../../assets/soitronsibergüvenlik.png';
+import sekomiletisim from '../../assets/sekomiletisim.png';
 
 class Contact extends React.Component {
   render() {
@@ -36,6 +38,15 @@ class Contact extends React.Component {
               </p>
             </div>
             <div id="map" className="map" />
+            <div style={{ fontSize: '18px', color: 'rgba(0,0,0, 0.8)', marginTop: '50px' }}>
+              <div>
+                <h2>Group Companies</h2>
+              </div>
+              <div style={{marginTop: '45px'}}>
+                <img style={{width: '200px', marginRight: '90px', marginLeft: '90px'}} src={sekomiletisim} />
+                <img style={{width: '300px', marginLeft: '90px'}} src={soitronsiber} />
+              </div>
+            </div>
           </Row>
         </Row>
       </div>

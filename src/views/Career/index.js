@@ -159,13 +159,15 @@ class Career extends React.Component {
             <Col span={8} className="subtitleRowDivider" />
           </Row>
           <Col xl={7} md={24}>
-            <Card className="homeCard" bodyStyle={{ height: '240px', minHeight: '240px' }}>
-              <div>Application</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="form" />
+            <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
+              <div style={{fontSize: '24px'}}>Application</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px'}}>
+                <Icon style={{ fontSize: '55px' }} type="form" />
               </div>
-              Are you interested in an open position or would like to work with us? Send us your
-              resume with a brief description of the role that you apply.
+              <p style={{fontSize: '20px'}}>
+                Are you interested in an open position or would like to work with us? Send us your
+                resume with a brief description of the role that you apply.
+              </p>
             </Card>
           </Col>
           <Col xl={1} md={24}>
@@ -182,13 +184,15 @@ class Career extends React.Component {
           <Col xl={7} md={24}>
             <Card
               className="homeCard"
-              bodyStyle={{ height: '240px', minHeight: '240px', overflow: 'hidden' }}
+              bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div>Evaluation</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="file-search" />
+              <div style={{fontSize: '24px'}}>Evaluation</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
+                <Icon style={{ fontSize: '55px' }} type="file-search" />
               </div>
-              We may send you a questionnaire for a deeper evaluation of your profile.
+              <p style={{fontSize: '24px'}}>
+                We may send you a questionnaire for a deeper evaluation of your profile.
+              </p>
             </Card>
           </Col>
           <Col xl={1} md={24}>
@@ -205,15 +209,17 @@ class Career extends React.Component {
           <Col xl={7} md={24}>
             <Card
               className="homeCard"
-              bodyStyle={{ height: '240px', minHeight: '240px', overflow: 'hidden' }}
+              bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div>Telephone Interview</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="phone" />
+              <div style={{fontSize: '24px'}}>Telephone Interview</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
+                <Icon style={{ fontSize: '55px' }} type="phone" />
               </div>
-              Do you meet the requirements? Please expect a phone call from us through which we want
-              to get to know you a little better, ask for some complementary information not
-              included in your resume and verify the technical and language skills you indicated
+                <p style={{ fontSize: '17px'}}>
+                  Do you meet the requirements? Please expect a phone call from us through which we want
+                  to get to know you a little better, ask for some complementary information not
+                  included in your resume and verify the technical and language skills you indicated
+                </p>
             </Card>
           </Col>
           {isMd ? (
@@ -230,10 +236,10 @@ class Career extends React.Component {
             </Col>
           ) : null}
           <Col xl={7} md={24}>
-            <Card className="homeCard" bodyStyle={{ height: '240px', minHeight: '240px' }}>
-              <div>Face-to-face interview</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="message" />
+            <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
+              <div style={{fontSize: '24px'}}>Face-to-face interview</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
+                <Icon style={{ fontSize: '55px' }} type="message" />
               </div>
               <p>
                 If you've successfully managed the telephone call, we are happy to meet you in
@@ -255,13 +261,13 @@ class Career extends React.Component {
           <Col xl={7} md={24}>
             <Card
               className="homeCard"
-              bodyStyle={{ height: '240px', minHeight: '240px', overflow: 'hidden' }}
+              bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div>Reference Check</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="file-done" />
+              <div style={{fontSize: '24px'}}>Reference Check</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
+                <Icon style={{ fontSize: '55px' }} type="file-done" />
               </div>
-              <p>We make a reference check</p>
+              <p style={{ fontSize: '25px', marginTop: '30px' }}>We make a reference check</p>
             </Card>
           </Col>
           <Col xl={1} md={24}>
@@ -276,10 +282,10 @@ class Career extends React.Component {
             />
           </Col>
           <Col xl={7} md={24}>
-            <Card className="homeCard" bodyStyle={{ height: '240px', minHeight: '240px' }}>
-              <div>Job Offer</div>
-              <div style={{ marginBottom: '14px' }}>
-                <Icon style={{ fontSize: '32px' }} type="dollar" />
+            <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
+              <div style={{fontSize: '24px'}}>Job Offer</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
+                <Icon style={{ fontSize: '55px' }} type="dollar" />
               </div>
               Successful applicants will receive a written offer letter, including benefits package
               information and detailed job description of the role.

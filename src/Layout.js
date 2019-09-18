@@ -55,6 +55,28 @@ class GlobalLayout extends React.Component {
   render() {
     const { scrollPos, windowWidth, windowHeight } = this.state;
     const path = window.location.pathname;
+    const techPosition = document.getElementById('tech') ? (document.getElementById('tech').offsetTop ? document.getElementById('tech').offsetTop : 0) : 0;
+    const solutionsPosition = document.getElementById('solutions') ? (document.getElementById('solutions').offsetTop ? document.getElementById('solutions').offsetTop : 0) : 0;
+    const expertisePosition = document.getElementById('expertise') ? (document.getElementById('expertise').offsetTop ? document.getElementById('expertise').offsetTop : 0) : 0;
+    const careerPosition = document.getElementById('career') ? (document.getElementById('career').offsetTop ? document.getElementById('career').offsetTop : 0) : 0;
+    const contactPosition = document.getElementById('contact') ? (document.getElementById('contact').offsetTop ? document.getElementById('contact').offsetTop : 0) : 0;
+    const activeMenu = () => {
+      if (-1 < scrollPos && scrollPos < techPosition) {
+        return 'home'
+      } else if (techPosition < scrollPos && scrollPos < solutionsPosition) {
+        return 'tech'
+      } else if (solutionsPosition < scrollPos && scrollPos < expertisePosition) {
+        return 'solutions'
+      } else if (expertisePosition < scrollPos && scrollPos < careerPosition) {
+        return 'expertise'
+      } else if (careerPosition < scrollPos && scrollPos < contactPosition) {
+        return 'career'
+      } else if (careerPosition < scrollPos) {
+        return 'contact'
+      } else {
+        return 'home'
+      }
+    }
     return (
       <Layout
         onScroll={this.checkScroll}
@@ -85,7 +107,7 @@ class GlobalLayout extends React.Component {
               to="home"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={1}
               duration={500}
             >
               <Col className="logoDiv">
@@ -127,78 +149,84 @@ class GlobalLayout extends React.Component {
               >
                 <Menu.Item key="1">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'home' ? 'red' : 'white') }}
                     activeClass="active"
                     to="home"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('about')}
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="2">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'tech' ? 'red' : 'white') }}
                     activeClass="active"
                     to="tech"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('technologies')}
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="3">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'solutions' ? 'red' : 'white') }}
                     activeClass="active"
                     to="solutions"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('solutions')}
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="4">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'expertise' ? 'red' : 'white') }}
                     activeClass="active"
                     to="expertise"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('expertise')}
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="5">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'career' ? 'red' : 'white') }}
                     activeClass="active"
                     to="career"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('career')}
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="6">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : 'white' }}
+                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'contact' ? 'red' : 'white') }}
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={1}
                     duration={500}
+                    className="menuItemText"
                   >
                     {i18n.t('contact')}
                   </Link>
@@ -322,7 +350,7 @@ class GlobalLayout extends React.Component {
               </Col>
               <Col md={4}>
                 <a href={gp_file} target="_blank">
-                  Gizlilik Politikas
+                  Gizlilik Politikası
                 </a>
               </Col>
               <Col md={4}>

@@ -15,7 +15,10 @@ class HomePage extends React.Component {
           <img src={banner1} className="topBannerImage" />
         </div>
         <Row style={{ marginTop: '50px', marginBottom: '0' }} className="contentBlock">
-          <h1 style={{ fontSize: '30px' }}>{i18n.t('wwa_h2_desc')}</h1>
+          <h1 style={{ fontSize: '30px' }}>
+            <p style={{marginBottom: '7px'}}>At Skyz We Develop Visibility, Automation and Compliance Technologies</p>
+            <p>for Large Scale Networks</p>
+          </h1>
           <h3>{i18n.t('wwa_p_desc')}</h3>
         </Row>
         <Row className="contentBlock">
