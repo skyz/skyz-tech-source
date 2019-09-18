@@ -50,69 +50,104 @@ class Career extends React.Component {
             </Col>
             <Col span={8} className="subtitleRowDivider" />
           </Row>
-          <Col lg={8}>
-            <div className="cardHeader">New Technologies</div>
-            <Card className="redHomeCard" bodyStyle={{ height: '190px', minHeight: '190px' }}>
-              As an R&D company, we always follow up new technologies to provide our customers best
-              of the breed solutions in the market.
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">New Technologies</div>
+                  <img style={{ width: '170px'}} src="https://soitron.com.tr/wp-content/uploads/2019/05/uzmaniz.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                    As an R&D company, we always follow up new technologies to provide our customers best
+                    of the breed solutions in the market.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col lg={8}>
-            <div className="cardHeader">Friendly & Dynamic Work Environment</div>
-            <Card
-              className="redHomeCard"
-              bodyStyle={{ height: '190px', minHeight: '190px', overflow: 'hidden' }}
-            >
-              <p>
-                Our positive work environment and friendly atmosphere are the most important values
-                of our company.
-              </p>
-              <p>We don’t force our employee to work, we motivate them to love their work.</p>
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">Friendly & Dynamic Work Environment</div>
+                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/arkadas.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                    Our positive work environment and friendly atmosphere are the most important values
+                    of our company.
+                    We don’t force our employee to work, we motivate them to love their work.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col lg={8}>
-            <div className="cardHeader">Private Life & Work-Life Balance</div>
-            <Card
-              className="redHomeCard"
-              bodyStyle={{ height: '190px', minHeight: '190px', overflow: 'hidden' }}
-            >
-              <p>
-                Our team is able to deliver great results because we emphasize the importance of a
-                good work / life balance, and take time to have fun together as a team.
-              </p>
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">Private Life & Work-Life Balance</div>
+                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/ozel-hayat.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                    Our team is able to deliver great results because we emphasize the importance of a
+                    good work / life balance, and take time to have fun together as a team.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col lg={8}>
-            <div className="cardHeader">Career Model</div>
-            <Card className="redHomeCard" bodyStyle={{ height: '190px', minHeight: '190px' }}>
-              <p>
-                We provide our employees with a good career model and give them a chance to change
-                their profession according to their talents.
-              </p>
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">Career Model</div>
+                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/kariyer.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                    We provide our employees with a good career model and give them a chance to change
+                    their profession according to their talents.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col lg={8}>
-            <div className="cardHeader">We help each other right from the start</div>
-            <Card
-              className="redHomeCard"
-              bodyStyle={{ height: '190px', minHeight: '190px', overflow: 'hidden' }}
-            >
-              <p>
-                We introduce a body-model for our new employees. We assign a body employee for each
-                new employee to accelerate and facilitate their adaption to our company and to help
-                them right from the start.
-              </p>
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">We help each other right from the start</div>
+                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/oryantasyon.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                  We introduce a body-model for our new employees. We assign a body employee for each
+                  new employee to accelerate and facilitate their adaption to our company and to help
+                  them right from the start.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col lg={8}>
-            <div className="cardHeader">Creativity & New Business Ideas</div>
-            <Card className="redHomeCard" bodyStyle={{ height: '190px', minHeight: '190px' }}>
-              <p>
-                We support new technologies, innovations, and ideas - help them go to market. We
-                also reward R&D ideas of our workers and make regular meetings to support new
-                projects.
-              </p>
-            </Card>
+          <Col lg={12} xl={8} style={{ marginTop: '20px' }}>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div className="flipCardHeader">Creativity & New Business Ideas</div>
+                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/egitim.png" alt="Avatar" />
+                </div>
+                <div class="flip-card-back">
+                  <p className="underIconText">
+                    We support new technologies, innovations, and ideas - help them go to market. We
+                    also reward R&D ideas of our workers and make regular meetings to support new
+                    projects.
+                  </p>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
         <Row style={{ marginTop: '30px' }} className="contentBlock">

@@ -12,7 +12,7 @@ class HomePage extends React.Component {
     return (
       <div id="home" className="homeDiv">
         <div className="bannerDiv">
-          <img src={banner1} className="bannerImage" />
+          <img src={banner1} className="topBannerImage" />
         </div>
         <Row style={{ marginTop: '50px', marginBottom: '0' }} className="contentBlock">
           <h1 style={{ fontSize: '30px' }}>{i18n.t('wwa_h2_desc')}</h1>
