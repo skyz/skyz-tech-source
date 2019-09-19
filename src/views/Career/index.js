@@ -55,12 +55,16 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">New Technologies</div>
-                  <img style={{ width: '170px'}} src="https://soitron.com.tr/wp-content/uploads/2019/05/uzmaniz.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="https://soitron.com.tr/wp-content/uploads/2019/05/uzmaniz.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                    As an R&D company, we always follow up new technologies to provide our customers best
-                    of the breed solutions in the market.
+                    As an R&D company, we always follow up new technologies to provide our customers
+                    best of the breed solutions in the market.
                   </p>
                 </div>
               </div>
@@ -71,13 +75,17 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">Friendly & Dynamic Work Environment</div>
-                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/arkadas.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="http://soitron.com.tr/wp-content/uploads/2019/05/arkadas.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                    Our positive work environment and friendly atmosphere are the most important values
-                    of our company.
-                    We don’t force our employee to work, we motivate them to love their work.
+                    Our positive work environment and friendly atmosphere are the most important
+                    values of our company. We don’t force our employee to work, we motivate them to
+                    love their work.
                   </p>
                 </div>
               </div>
@@ -88,12 +96,16 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">Private Life & Work-Life Balance</div>
-                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/ozel-hayat.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="http://soitron.com.tr/wp-content/uploads/2019/05/ozel-hayat.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                    Our team is able to deliver great results because we emphasize the importance of a
-                    good work / life balance, and take time to have fun together as a team.
+                    Our team is able to deliver great results because we emphasize the importance of
+                    a good work / life balance, and take time to have fun together as a team.
                   </p>
                 </div>
               </div>
@@ -104,12 +116,16 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">Career Model</div>
-                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/kariyer.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="http://soitron.com.tr/wp-content/uploads/2019/05/kariyer.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                    We provide our employees with a good career model and give them a chance to change
-                    their profession according to their talents.
+                    We provide our employees with a good career model and give them a chance to
+                    change their profession according to their talents.
                   </p>
                 </div>
               </div>
@@ -120,13 +136,17 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">We help each other right from the start</div>
-                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/oryantasyon.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="http://soitron.com.tr/wp-content/uploads/2019/05/oryantasyon.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                  We introduce a body-model for our new employees. We assign a body employee for each
-                  new employee to accelerate and facilitate their adaption to our company and to help
-                  them right from the start.
+                    We introduce a body-model for our new employees. We assign a body employee for
+                    each new employee to accelerate and facilitate their adaption to our company and
+                    to help them right from the start.
                   </p>
                 </div>
               </div>
@@ -137,7 +157,11 @@ class Career extends React.Component {
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <div className="flipCardHeader">Creativity & New Business Ideas</div>
-                  <img style={{ width: '170px'}} src="http://soitron.com.tr/wp-content/uploads/2019/05/egitim.png" alt="Avatar" />
+                  <img
+                    style={{ width: '170px' }}
+                    src="http://soitron.com.tr/wp-content/uploads/2019/05/egitim.png"
+                    alt="Avatar"
+                  />
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
@@ -160,11 +184,11 @@ class Career extends React.Component {
           </Row>
           <Col xl={7} md={24}>
             <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
-              <div style={{fontSize: '24px'}}>Application</div>
-              <div style={{ marginBottom: '14px', marginTop: '20px'}}>
+              <div style={{ fontSize: '24px' }}>Application</div>
+              <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="form" />
               </div>
-              <p style={{fontSize: '20px'}}>
+              <p style={{ fontSize: '20px' }}>
                 Are you interested in an open position or would like to work with us? Send us your
                 resume with a brief description of the role that you apply.
               </p>
@@ -178,7 +202,7 @@ class Career extends React.Component {
                 marginBottom: isMd ? '25px' : '0',
                 color: 'rgba(0,0,0,0.7)',
               }}
-              type={isMd ? 'down' : 'right'}
+              type={isMd ? 'caret-down' : 'caret-right'}
             />
           </Col>
           <Col xl={7} md={24}>
@@ -186,11 +210,11 @@ class Career extends React.Component {
               className="homeCard"
               bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div style={{fontSize: '24px'}}>Evaluation</div>
+              <div style={{ fontSize: '24px' }}>Evaluation</div>
               <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="file-search" />
               </div>
-              <p style={{fontSize: '24px'}}>
+              <p style={{ fontSize: '24px' }}>
                 We may send you a questionnaire for a deeper evaluation of your profile.
               </p>
             </Card>
@@ -203,7 +227,7 @@ class Career extends React.Component {
                 marginBottom: isMd ? '25px' : '0',
                 color: 'rgba(0,0,0,0.7)',
               }}
-              type={isMd ? 'down' : 'right'}
+              type={isMd ? 'caret-down' : 'caret-right'}
             />
           </Col>
           <Col xl={7} md={24}>
@@ -211,15 +235,15 @@ class Career extends React.Component {
               className="homeCard"
               bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div style={{fontSize: '24px'}}>Telephone Interview</div>
+              <div style={{ fontSize: '24px' }}>Telephone Interview</div>
               <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="phone" />
               </div>
-                <p style={{ fontSize: '17px'}}>
-                  Do you meet the requirements? Please expect a phone call from us through which we want
-                  to get to know you a little better, ask for some complementary information not
-                  included in your resume and verify the technical and language skills you indicated
-                </p>
+              <p style={{ fontSize: '17px' }}>
+                Do you meet the requirements? Please expect a phone call from us through which we
+                want to get to know you a little better, ask for some complementary information not
+                included in your resume and verify the technical and language skills you indicated
+              </p>
             </Card>
           </Col>
           {isMd ? (
@@ -231,13 +255,13 @@ class Career extends React.Component {
                   marginBottom: '25px',
                   color: 'rgba(0,0,0,0.7)',
                 }}
-                type="down"
+                type="caret-down"
               />
             </Col>
           ) : null}
           <Col xl={7} md={24}>
             <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
-              <div style={{fontSize: '24px'}}>Face-to-face interview</div>
+              <div style={{ fontSize: '24px' }}>Face-to-face interview</div>
               <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="message" />
               </div>
@@ -255,7 +279,7 @@ class Career extends React.Component {
                 marginBottom: isMd ? '25px' : '0',
                 color: 'rgba(0,0,0,0.7)',
               }}
-              type={isMd ? 'down' : 'right'}
+              type={isMd ? 'caret-down' : 'caret-right'}
             />
           </Col>
           <Col xl={7} md={24}>
@@ -263,7 +287,7 @@ class Career extends React.Component {
               className="homeCard"
               bodyStyle={{ height: '300px', minHeight: '300px', overflow: 'hidden' }}
             >
-              <div style={{fontSize: '24px'}}>Reference Check</div>
+              <div style={{ fontSize: '24px' }}>Reference Check</div>
               <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="file-done" />
               </div>
@@ -278,12 +302,12 @@ class Career extends React.Component {
                 marginBottom: isMd ? '25px' : '0',
                 color: 'rgba(0,0,0,0.7)',
               }}
-              type={isMd ? 'down' : 'right'}
+              type={isMd ? 'caret-down' : 'caret-right'}
             />
           </Col>
           <Col xl={7} md={24}>
             <Card className="homeCard" bodyStyle={{ height: '300px', minHeight: '300px' }}>
-              <div style={{fontSize: '24px'}}>Job Offer</div>
+              <div style={{ fontSize: '24px' }}>Job Offer</div>
               <div style={{ marginBottom: '14px', marginTop: '20px' }}>
                 <Icon style={{ fontSize: '55px' }} type="dollar" />
               </div>

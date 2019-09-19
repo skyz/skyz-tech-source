@@ -323,6 +323,32 @@
   border-radius: 35px !important;
   border: none !important; }
 
+.homeCardBubble {
+  -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  font-size: 20px !important;
+  background-image: linear-gradient(135deg, #5e768a 10%, #34495E 100%) !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-radius: 35px !important;
+  border: none !important; }
+
+.homeCardBubble:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 45%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #3D5268;
+  border-right: 0;
+  margin-top: -10px;
+  margin-right: -20px;
+  z-index: 3; }
+
 .redHomeCard {
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);

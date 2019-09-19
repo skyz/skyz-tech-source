@@ -26,7 +26,7 @@ class Expertise extends React.Component {
               <div style={{ marginTop: '30px' }}>
                 <Icon style={{ fontSize: '55px' }} type="deployment-unit" />
               </div>
-              <div style={{ fontSize: '18px', marginTop: '10px' }} >
+              <div style={{ fontSize: '18px', marginTop: '10px' }}>
                 While creating software solutions that helps our customers to operate their network
                 infrastructures, we acquired extensive networking domain knowledge. We are a team of
                 software developers who can communicate with network engineers in their jargon which
@@ -69,7 +69,6 @@ class Expertise extends React.Component {
           </Col>
           <Col lg={24} xl={12}>
             <Card className="homeCard" bodyStyle={{ height: '365px', minHeight: '365px' }}>
-              
               <div style={{ fontSize: '26px', marginTop: '20px', marginBottom: '15px' }}>DPI</div>
               <div style={{ marginTop: '30px' }}>
                 <Icon style={{ fontSize: '55px' }} type="rocket" />

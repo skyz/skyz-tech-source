@@ -55,28 +55,48 @@ class GlobalLayout extends React.Component {
   render() {
     const { scrollPos, windowWidth, windowHeight } = this.state;
     const path = window.location.pathname;
-    const techPosition = document.getElementById('tech') ? (document.getElementById('tech').offsetTop ? document.getElementById('tech').offsetTop : 0) : 0;
-    const solutionsPosition = document.getElementById('solutions') ? (document.getElementById('solutions').offsetTop ? document.getElementById('solutions').offsetTop : 0) : 0;
-    const expertisePosition = document.getElementById('expertise') ? (document.getElementById('expertise').offsetTop ? document.getElementById('expertise').offsetTop : 0) : 0;
-    const careerPosition = document.getElementById('career') ? (document.getElementById('career').offsetTop ? document.getElementById('career').offsetTop : 0) : 0;
-    const contactPosition = document.getElementById('contact') ? (document.getElementById('contact').offsetTop ? document.getElementById('contact').offsetTop : 0) : 0;
+    const techPosition = document.getElementById('tech')
+      ? document.getElementById('tech').offsetTop
+        ? document.getElementById('tech').offsetTop
+        : 0
+      : 0;
+    const solutionsPosition = document.getElementById('solutions')
+      ? document.getElementById('solutions').offsetTop
+        ? document.getElementById('solutions').offsetTop
+        : 0
+      : 0;
+    const expertisePosition = document.getElementById('expertise')
+      ? document.getElementById('expertise').offsetTop
+        ? document.getElementById('expertise').offsetTop
+        : 0
+      : 0;
+    const careerPosition = document.getElementById('career')
+      ? document.getElementById('career').offsetTop
+        ? document.getElementById('career').offsetTop
+        : 0
+      : 0;
+    const contactPosition = document.getElementById('contact')
+      ? document.getElementById('contact').offsetTop
+        ? document.getElementById('contact').offsetTop
+        : 0
+      : 0;
     const activeMenu = () => {
       if (-1 < scrollPos && scrollPos < techPosition) {
-        return 'home'
+        return 'home';
       } else if (techPosition < scrollPos && scrollPos < solutionsPosition) {
-        return 'tech'
+        return 'tech';
       } else if (solutionsPosition < scrollPos && scrollPos < expertisePosition) {
-        return 'solutions'
+        return 'solutions';
       } else if (expertisePosition < scrollPos && scrollPos < careerPosition) {
-        return 'expertise'
+        return 'expertise';
       } else if (careerPosition < scrollPos && scrollPos < contactPosition) {
-        return 'career'
+        return 'career';
       } else if (careerPosition < scrollPos) {
-        return 'contact'
+        return 'contact';
       } else {
-        return 'home'
+        return 'home';
       }
-    }
+    };
     return (
       <Layout
         onScroll={this.checkScroll}
@@ -102,14 +122,7 @@ class GlobalLayout extends React.Component {
               marginTop: 0,
             }}
           >
-            <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={1}
-              duration={500}
-            >
+            <Link activeClass="active" to="home" spy={true} smooth={true} offset={1} duration={500}>
               <Col className="logoDiv">
                 <img
                   style={scrollPos > 100 ? { filter: 'brightness(10)' } : undefined}
@@ -149,7 +162,9 @@ class GlobalLayout extends React.Component {
               >
                 <Menu.Item key="1">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'home' ? 'red' : 'white') }}
+                    style={{
+                      color: windowWidth < 850 ? 'black' : activeMenu() == 'home' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="home"
                     spy={true}
@@ -163,7 +178,9 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
                 <Menu.Item key="2">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'tech' ? 'red' : 'white') }}
+                    style={{
+                      color: windowWidth < 850 ? 'black' : activeMenu() == 'tech' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="tech"
                     spy={true}
@@ -177,7 +194,10 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
                 <Menu.Item key="3">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'solutions' ? 'red' : 'white') }}
+                    style={{
+                      color:
+                        windowWidth < 850 ? 'black' : activeMenu() == 'solutions' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="solutions"
                     spy={true}
@@ -191,7 +211,10 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
                 <Menu.Item key="4">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'expertise' ? 'red' : 'white') }}
+                    style={{
+                      color:
+                        windowWidth < 850 ? 'black' : activeMenu() == 'expertise' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="expertise"
                     spy={true}
@@ -205,7 +228,10 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
                 <Menu.Item key="5">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'career' ? 'red' : 'white') }}
+                    style={{
+                      color:
+                        windowWidth < 850 ? 'black' : activeMenu() == 'career' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="career"
                     spy={true}
@@ -219,7 +245,10 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
                 <Menu.Item key="6">
                   <Link
-                    style={{ color: windowWidth < 850 ? 'black' : (activeMenu() == 'contact' ? 'red' : 'white') }}
+                    style={{
+                      color:
+                        windowWidth < 850 ? 'black' : activeMenu() == 'contact' ? 'red' : 'white',
+                    }}
                     activeClass="active"
                     to="contact"
                     spy={true}

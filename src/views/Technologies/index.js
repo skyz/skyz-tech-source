@@ -45,15 +45,18 @@ class Technologies extends React.Component {
           <img src={banner1} className="bannerImage" />
         </div>
         <Row className="contentBlock">
-          <Col style={{marginTop: '20px'}} md={12} lg={8} xl={8}>
-            <div class="tech-flip-card" style={{ minHeight: cardBodyHeight, height: cardBodyHeight}}>
+          <Col style={{ marginTop: '20px' }} md={12} lg={8} xl={8}>
+            <div
+              class="tech-flip-card"
+              style={{ minHeight: cardBodyHeight, height: cardBodyHeight }}
+            >
               <div class="tech-flip-card-inner">
                 <div class="tech-flip-card-front">
                   <div className="tech-flipCardHeader">Visibility</div>
-                  <img style={{ width: '170px'}} src={visibilityImg} alt="Avatar" />
+                  <img style={{ width: '170px' }} src={visibilityImg} alt="Avatar" />
                   <p style={{ marginLeft: '25px', marginRight: '25px', fontSize: '18px' }}>
-                    Complex networks with ten thousands of nodes requre scalable visibility tools. Skyz
-                    provides stable, proven, multi vendor visibility solutions.
+                    Complex networks with ten thousands of nodes requre scalable visibility tools.
+                    Skyz provides stable, proven, multi vendor visibility solutions.
                   </p>
                 </div>
                 <div class="tech-flip-card-back">
@@ -103,12 +106,15 @@ class Technologies extends React.Component {
               </div>
             </div>
           </Col>
-          <Col style={{marginTop: '20px'}} md={12} lg={8} xl={8}>
-            <div class="tech-flip-card" style={{ minHeight: cardBodyHeight, height: cardBodyHeight}}>
+          <Col style={{ marginTop: '20px' }} md={12} lg={8} xl={8}>
+            <div
+              class="tech-flip-card"
+              style={{ minHeight: cardBodyHeight, height: cardBodyHeight }}
+            >
               <div class="tech-flip-card-inner">
                 <div class="tech-flip-card-front">
                   <div className="tech-flipCardHeader">Compliance</div>
-                  <img style={{ width: '170px'}} src={complianceImg} alt="Avatar" />
+                  <img style={{ width: '170px' }} src={complianceImg} alt="Avatar" />
                   <p style={{ marginLeft: '25px', marginRight: '25px', fontSize: '18px' }}>
                     In today's business environment following diverse and complex regulations is
                     becoming increasingly important for the success of a company. Our compliance
@@ -162,17 +168,21 @@ class Technologies extends React.Component {
               </div>
             </div>
           </Col>
-          <Col style={{marginTop: '20px'}} md={24} lg={8} xl={8}>
-            <div class="tech-flip-card" style={{ minHeight: cardBodyHeight, height: cardBodyHeight}}>
+          <Col style={{ marginTop: '20px' }} md={24} lg={8} xl={8}>
+            <div
+              class="tech-flip-card"
+              style={{ minHeight: cardBodyHeight, height: cardBodyHeight }}
+            >
               <div class="tech-flip-card-inner">
                 <div class="tech-flip-card-front">
                   <div className="tech-flipCardHeader">Automation</div>
-                  <img style={{ width: '170px'}} src={automationImg} alt="Avatar" />
+                  <img style={{ width: '170px' }} src={automationImg} alt="Avatar" />
                   <p style={{ marginLeft: '25px', marginRight: '25px', fontSize: '18px' }}>
                     Auto provisioning capabilities integrated with business support systems (such as
-                    order management), reduce the risks and overheads caused by manual operations.Skyz
-                    automation technologies enable easier management of complex and multi vendor
-                    networks, as well as benefiting from evolving Software Defined Technologies
+                    order management), reduce the risks and overheads caused by manual
+                    operations.Skyz automation technologies enable easier management of complex and
+                    multi vendor networks, as well as benefiting from evolving Software Defined
+                    Technologies
                   </p>
                 </div>
                 <div class="tech-flip-card-back">
@@ -207,7 +217,8 @@ class Technologies extends React.Component {
                         type="check-circle"
                         theme="twoTone"
                       />
-                      Provide automatic configuration of infrastructure in accordance to customer needs
+                      Provide automatic configuration of infrastructure in accordance to customer
+                      needs
                     </li>
                   </ul>
                 </div>

@@ -42,9 +42,12 @@ class Contact extends React.Component {
               <div>
                 <h2>Group Companies</h2>
               </div>
-              <div style={{marginTop: '45px'}}>
-                <img style={{width: '200px', marginRight: '90px', marginLeft: '90px'}} src={sekomiletisim} />
-                <img style={{width: '300px', marginLeft: '90px'}} src={soitronsiber} />
+              <div style={{ marginTop: '45px' }}>
+                <img
+                  style={{ width: '200px', marginRight: '90px', marginLeft: '90px' }}
+                  src={sekomiletisim}
+                />
+                <img style={{ width: '300px', marginLeft: '90px' }} src={soitronsiber} />
               </div>
             </div>
           </Row>

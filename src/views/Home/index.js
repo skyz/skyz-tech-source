@@ -16,7 +16,9 @@ class HomePage extends React.Component {
         </div>
         <Row style={{ marginTop: '50px', marginBottom: '0' }} className="contentBlock">
           <h1 style={{ fontSize: '30px' }}>
-            <p style={{marginBottom: '7px'}}>At Skyz We Develop Visibility, Automation and Compliance Technologies</p>
+            <p style={{ marginBottom: '7px' }}>
+              At Skyz We Develop Visibility, Automation and Compliance Technologies
+            </p>
             <p>for Large Scale Networks</p>
           </h1>
           <h3>{i18n.t('wwa_p_desc')}</h3>
