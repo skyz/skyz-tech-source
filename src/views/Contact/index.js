@@ -16,7 +16,7 @@ class Contact extends React.Component {
           <Row className="subtitleRow">
             <Col span={10} className="titleRowDivider" />
             <Col span={4} className="titleMiddleDiv">
-              <span className="highlightsHeader">{i18n.t('contact_us')}</span>
+              <span className="highlightsHeader">{i18n.t('CONTACT US')}</span>
             </Col>
             <Col span={10} className="titleRowDivider" />
           </Row>
