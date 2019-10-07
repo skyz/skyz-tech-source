@@ -22,19 +22,18 @@ class Contact extends React.Component {
           </Row>
           <Row>
             <p style={{ color: 'rgba(0,0,0, 0.8)', fontSize: '24px' }}>
-              Masaldan İş Merkezi, Kısıklı Mahallesi, Alemdağ Caddesi, No:60 C Blok D:8
-              Üsküdar/İSTANBUL
+              Kısıklı Mah. Alemdağ Cad. Masaldan İş Merkezi C Blok K:3 Üsküdar 34692 Istanbul
             </p>
             <div style={{ fontSize: '18px', color: 'rgba(0,0,0, 0.8)' }}>
               <div style={{ marginBottom: '30px' }}>
-                <a href="mailTo:info@sekomyazilim.com.tr">info@sekomyazilim.com.tr</a>{' '}
-                <Icon type="inbox" />
+                <Icon type="inbox" /> {' '}
+                <a href="mailTo:info@skyz.tech">info@skyz.tech</a>
               </div>
               <p>
-                Tel: 0216 316 0103 <Icon type="phone" />
+                <Icon type="phone" /> +90 0216 316 0103
               </p>
               <p>
-                Fax: 0216 316 0109 <Icon type="printer" />
+                <Icon type="printer" /> +90 0216 316 0109
               </p>
             </div>
             <div id="map" className="map" />

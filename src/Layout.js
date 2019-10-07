@@ -262,7 +262,7 @@ class GlobalLayout extends React.Component {
                 </Menu.Item>
               </Menu>
             </Col>
-            {windowWidth > 1090 ? (
+            {windowWidth > 1039 ? (
               <Col style={{ float: 'right' }}>
                 <div
                   onClick={() => {
@@ -307,17 +307,17 @@ class GlobalLayout extends React.Component {
                   <b style={{ opacity: '0.7', fontSize: '16px' }}>{i18n.t('about')}</b>
                 </p>
                 <Divider />
-                <p>{i18n.t('who_we_are')}</p>
-                <p>{i18n.t('highlights')}</p>
+                <p>{i18n.t('Who we are')}</p>
+                <p>{i18n.t('Highlights')}</p>
               </Col>
               <Col md={4}>
                 <p>
                   <b style={{ opacity: '0.7', fontSize: '16px' }}>{i18n.t('technologies')}</b>
                 </p>
                 <Divider />
-                <p>{i18n.t('visibility')}</p>
-                <p>{i18n.t('automation')}</p>
-                <p>{i18n.t('compliance')}</p>
+                <p>Visibility</p>
+                <p>Automation</p>
+                <p>Compliance</p>
               </Col>
               <Col md={4}>
                 <p>
@@ -357,13 +357,13 @@ class GlobalLayout extends React.Component {
                 <p>{i18n.t('Adress')}</p>
                 <p>{i18n.t('Group Companies')}</p>
                 <p>
-                  <a href="mailTo:info@sekomyazilim.com.tr">info@sekomyazilim.com.tr</a>
+                  <a href="mailTo:info@skyz.tech">info@skyz.tech</a>
                 </p>
                 <p>
-                  0216 316 0103 <Icon type="phone" />
+                <Icon type="phone" /> +90 0216 316 0103
                 </p>
                 <p>
-                  0216 316 0109 <Icon type="printer" />
+                <Icon type="printer" /> +90 0216 316 0109
                 </p>
               </Col>
             </Row>

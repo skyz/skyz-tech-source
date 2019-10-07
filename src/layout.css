@@ -65,7 +65,9 @@
   text-align: center; }
 
 .logoImg {
-  height: 50px; }
+  height: 35px;
+  margin-left: 20px;
+  margin-bottom: 20px; }
   @media only screen and (max-width: 690px) {
     .logoImg {
       height: 30px; } }
