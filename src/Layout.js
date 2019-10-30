@@ -266,7 +266,7 @@ class GlobalLayout extends React.Component {
               <Col style={{ float: 'right' }}>
                 <div
                   onClick={() => {
-                    window.open('https://www.soitron.com.tr', '_blank');
+                    window.open('https://www.soitrongroup.com', '_blank');
                   }}
                   className="memberOfDiv"
                 >
@@ -360,10 +360,10 @@ class GlobalLayout extends React.Component {
                   <a href="mailTo:info@skyz.tech">info@skyz.tech</a>
                 </p>
                 <p>
-                <Icon type="phone" /> +90 0216 316 0103
+                  <Icon type="phone" /> +90 0216 316 0103
                 </p>
                 <p>
-                <Icon type="printer" /> +90 0216 316 0109
+                  <Icon type="printer" /> +90 0216 316 0109
                 </p>
               </Col>
             </Row>

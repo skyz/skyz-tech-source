@@ -17,7 +17,8 @@ class HomePage extends React.Component {
         <Row style={{ marginTop: '50px', marginBottom: '0' }} className="contentBlock">
           <h1 style={{ fontSize: '30px' }}>
             <p style={{ marginBottom: '7px' }}>
-              At Skyz We Develop <b>Visibility</b>, <b>Automation</b> and <b>Compliance</b> Technologies
+              At Skyz We Develop <b>Visibility</b>, <b>Automation</b> and <b>Compliance</b>{' '}
+              Technologies
             </p>
             <p>for Large Scale Networks</p>
           </h1>

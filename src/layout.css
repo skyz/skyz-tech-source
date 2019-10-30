@@ -227,6 +227,9 @@
   @media only screen and (max-width: 1500px) {
     .titleMiddleDiv {
       width: 33.3%; } }
+  @media only screen and (max-width: 760px) {
+    .titleMiddleDiv {
+      width: 100%; } }
 
 .subtitleMiddleDiv {
   width: 30%; }
@@ -323,7 +326,8 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
   border-radius: 35px !important;
-  border: none !important; }
+  border: none !important;
+  overflow: hidden; }
 
 .homeCardBubble {
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
@@ -361,7 +365,8 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
   border-radius: 35px !important;
-  border: none !important; }
+  border: none !important;
+  overflow: hidden; }
 
 .overlayDiv {
   width: 100%;
@@ -459,14 +464,16 @@
   border-radius: 35px;
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
-  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72); }
+  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  overflow: hidden; }
 
 .tech-flip-card-front {
   background-color: rgba(255, 255, 255, 0.4);
   color: black;
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
-  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72); }
+  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  overflow: hidden; }
 
 .tech-flip-card-back {
   color: rgba(255, 255, 255, 0.75);
@@ -474,13 +481,15 @@
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
-  background-image: linear-gradient(135deg, #5e768a 10%, #34495E 100%); }
+  background-image: linear-gradient(135deg, #5e768a 10%, #34495E 100%);
+  overflow: hidden; }
 
 .flip-card {
   background-color: transparent;
   min-height: 360px;
   height: 360px;
-  perspective: 1000px; }
+  perspective: 1000px;
+  overflow: hidden; }
 
 .flip-card-inner {
   position: relative;
@@ -502,14 +511,16 @@
   border-radius: 35px;
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
-  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72); }
+  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  overflow: hidden; }
 
 .flip-card-front {
   background-color: rgba(255, 255, 255, 0.4);
   color: black;
   -webkit-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
   -moz-box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
-  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72); }
+  box-shadow: 5px 5px 6px 1px rgba(52, 73, 94, 0.72);
+  overflow: hidden; }
 
 .flip-card-back {
   color: rgba(255, 255, 255, 0.75);
