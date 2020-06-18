@@ -41,11 +41,15 @@ class Contact extends React.Component {
                 <h2>Group Companies</h2>
               </div>
               <div style={{ marginTop: '45px' }}>
-                <a href="www.sekom.com.tr" target="_blank"><img
-                  style={{ width: '200px', marginRight: '90px', marginLeft: '90px' }}
-                  src={sekomiletisim}
-                /></a>
-                <a href="www.soitron.com.tr" target="_blank"><img style={{ width: '200px', marginLeft: '90px' }} src={soitronsiber} /></a>
+                <a href="www.sekom.com.tr" target="_blank">
+                  <img
+                    style={{ width: '200px', marginRight: '90px', marginLeft: '90px' }}
+                    src={sekomiletisim}
+                  />
+                </a>
+                <a href="www.soitron.com.tr" target="_blank">
+                  <img style={{ width: '200px', marginLeft: '90px' }} src={soitronsiber} />
+                </a>
               </div>
             </div>
           </Row>

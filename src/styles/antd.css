@@ -17821,10 +17821,11 @@ textarea.ant-mention-wrapper .ant-mention-editor {
   transition: color 0.3s;
 }
 .ant-modal-close-x {
+  color: white;
   display: block;
   width: 56px;
   height: 56px;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   line-height: 56px;
   text-align: center;

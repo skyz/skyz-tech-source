@@ -144,7 +144,9 @@ class Career extends React.Component {
                 </div>
                 <div class="flip-card-back">
                   <p className="underIconText">
-                    We introduce a buddy-model for our new employees. We assign a buddy for each new employee to accelerate and facilitate their adaption to our company and to help them right from the start
+                    We introduce a buddy-model for our new employees. We assign a buddy for each new
+                    employee to accelerate and facilitate their adaption to our company and to help
+                    them right from the start
                   </p>
                 </div>
               </div>
