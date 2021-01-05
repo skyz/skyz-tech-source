@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "antd": "*",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "babel-preset-stage-0": "^6.24.1",
     "cesium": "^1.59.0",
